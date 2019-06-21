@@ -1,8 +1,13 @@
 #write your code here
-def countdown
-x = 11
-while x < 11
-  puts "#{x} SECOND(S)!"
-x -= 1
-end
-returns "Happy New Year"
+def countdown(x)
+  while x > 0
+   puts "#{x} SECOND(S)!"
+    x -= 1
+  end
+
+  return "HAPPY NEW YEAR"
+end 
+
+countdown(10)
+puts countdown(30)
+
